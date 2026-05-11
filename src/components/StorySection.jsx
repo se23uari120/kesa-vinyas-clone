@@ -35,7 +35,10 @@ const StorySection = ({ data, index }) => {
   return (
     <section className="story-section">
       <div className="story-background">
-        <img src={data.image} alt={data.imageAlt} />
+        <img 
+          src={`${import.meta.env.BASE_URL}${data.image.replace(/^\//, '')}`} 
+          alt={data.imageAlt} 
+        />
       </div>
       <div className="story-content">
         <div 
