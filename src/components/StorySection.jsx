@@ -32,13 +32,18 @@ const StorySection = ({ data, index }) => {
     };
   }, []);
 
+  const imageSrc = `${import.meta.env.BASE_URL}${data.image.replace(/^\//, '')}`;
+
   return (
     <section className="story-section">
       <div className="story-background">
-        <img 
-          src={`${import.meta.env.BASE_URL}${data.image.replace(/^\//, '')}`} 
-          alt={data.imageAlt} 
-        />
+        <a href={imageSrc} target="_blank" rel="noopener noreferrer">
+          <img 
+            src={imageSrc} 
+            alt={data.imageAlt} 
+            style={{ cursor: 'pointer' }}
+          />
+        </a>
       </div>
       <div className="story-content">
         <div 
