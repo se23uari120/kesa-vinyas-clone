@@ -143,33 +143,33 @@ export const categories = {
   timeline: {
     title: 'Historical Timeline',
     items: [
-      { id: 't1', title: '1. Indus Valley Civilization (3300 BCE - 1500 BCE)', content: 'People used combs, beads, and mirrors. Men kept their hair combed and wore well-groomed beards. Women wore buns and braids decorated with beads and ornaments.' },
-      { id: 't2', title: '2. Vedic Period (1500 BCE - 500 BCE)', content: 'Hair was sacred. Men wore Shikha (sacred tuft) or Jata (matted locks) as part of spiritual life. Women maintained long braided hair adorned with flowers.' },
-      { id: 't3', title: '3. Epic Period (500 BCE - 200 CE)', content: 'Hair reflected emotions and status. Warriors tied their hair in knots during battles. Royal women wore elaborate styles with ornaments. Loose hair symbolized grief or vows.' },
-      { id: 't4', title: '4. Gupta Period (320 CE - 550 CE)', content: 'The golden age of art and beauty. Men wore shoulder-length curls and crowns. Women\'s hairstyles became more artistic with curls, buns, floral garlands, and jeweled ornaments.' },
-      { id: 't5', title: '5. Mughal Period (1526 - 1857)', content: 'Persian influence brought new styles. Men wore perfumed hair, beards, and turbans. Women wore jeweled braids, hairnets, passa, and pearl strings.' },
-      { id: 't6', title: '6. Colonial Period (1857 - 1947)', content: 'Western influence introduced shorter hairstyles for men and modern grooming tools. Women continued buns and braids but with simpler styling.' },
-      { id: 't7', title: '7. Modern India (1947 - Present)', content: 'A blend of tradition and modern fashion. Traditional braids, buns, and flowers continue in weddings, while modern styles are popular in daily life.' }
+      { id: 't1', title: '1. Indus Valley Civilization (3300 BCE - 1500 BCE)', content: 'People used combs, beads, and mirrors. Men kept their hair combed and wore well-groomed beards. Women wore buns and braids decorated with beads and ornaments.', image: '/timeline_indus_1778560708036.png', imageAlt: 'Indus Valley hairstyles' },
+      { id: 't2', title: '2. Vedic Period (1500 BCE - 500 BCE)', content: 'Hair was sacred. Men wore Shikha (sacred tuft) or Jata (matted locks) as part of spiritual life. Women maintained long braided hair adorned with flowers.', image: '/timeline_vedic_1778560725860.png', imageAlt: 'Vedic priest with Shikha' },
+      { id: 't3', title: '3. Epic Period (500 BCE - 200 CE)', content: 'Hair reflected emotions and status. Warriors tied their hair in knots during battles. Royal women wore elaborate styles with ornaments. Loose hair symbolized grief or vows.', image: '/timeline_epic_1778560745813.png', imageAlt: 'Epic period warrior' },
+      { id: 't4', title: '4. Gupta Period (320 CE - 550 CE)', content: 'The golden age of art and beauty. Men wore shoulder-length curls and crowns. Women\'s hairstyles became more artistic with curls, buns, floral garlands, and jeweled ornaments.', image: '/timeline_gupta_1778560761465.png', imageAlt: 'Gupta period hairstyles' },
+      { id: 't5', title: '5. Mughal Period (1526 - 1857)', content: 'Persian influence brought new styles. Men wore perfumed hair, beards, and turbans. Women wore jeweled braids, hairnets, passa, and pearl strings.', image: '/timeline_mughal_1778560780179.png', imageAlt: 'Mughal period royal woman' },
+      { id: 't6', title: '6. Colonial Period (1857 - 1947)', content: 'Western influence introduced shorter hairstyles for men and modern grooming tools. Women continued buns and braids but with simpler styling.', image: '/timeline_colonial_1778560806160.png', imageAlt: 'Colonial period hairstyles' },
+      { id: 't7', title: '7. Modern India (1947 - Present)', content: 'A blend of tradition and modern fashion. Traditional braids, buns, and flowers continue in weddings, while modern styles are popular in daily life.', image: '/timeline_modern_1778560848383.png', imageAlt: 'Modern Indian hairstyles' }
     ]
   },
   texts: {
     title: 'Important Hairstyles in Texts',
     items: [
-      { id: 'x1', title: 'Shikha', content: 'Sacred tuft of hair worn by priests and scholars.' },
-      { id: 'x2', title: 'Jata', content: 'Matted locks worn by sages and ascetics.' },
-      { id: 'x3', title: 'Kaparda', content: 'Spiral coiled bun on the head.' },
-      { id: 'x4', title: 'Opasa', content: 'Topknot hairstyle.' },
-      { id: 'x5', title: 'Kuntala', content: 'Loose flowing hair.' },
-      { id: 'x6', title: 'Dhammilla', content: 'Elaborate royal bun.' },
-      { id: 'x7', title: 'Kesabandha', content: 'Tied and decorated hair.' },
-      { id: 'x8', title: 'Alaka Chudaka', content: 'Hair knot decorated with flowers.' }
+      { id: 'x1', title: 'Shikha', content: 'Sacred tuft of hair worn by priests and scholars.', image: '/texts_shikha_1778560923625.png', imageAlt: 'Shikha hairstyle' },
+      { id: 'x2', title: 'Jata', content: 'Matted locks worn by sages and ascetics.', image: '/texts_jata_1778560940090.png', imageAlt: 'Jata hairstyle' },
+      { id: 'x3', title: 'Kaparda', content: 'Spiral coiled bun on the head.', image: '/texts_kaparda_1778560955732.png', imageAlt: 'Kaparda hairstyle' },
+      { id: 'x4', title: 'Opasa', content: 'Topknot hairstyle.', image: '/texts_opasa_1778560972922.png', imageAlt: 'Opasa hairstyle' },
+      { id: 'x5', title: 'Kuntala', content: 'Loose flowing hair.', image: '/texts_kuntala_1778561022655.png', imageAlt: 'Kuntala hairstyle' },
+      { id: 'x6', title: 'Dhammilla', content: 'Elaborate royal bun.', image: '/texts_dhammilla_1778561059702.png', imageAlt: 'Dhammilla hairstyle' },
+      { id: 'x7', title: 'Kesabandha', content: 'Tied and decorated hair.', image: '/texts_kesabandha_1778561078067.png', imageAlt: 'Kesabandha hairstyle' },
+      { id: 'x8', title: 'Alaka Chudaka', content: 'Hair knot decorated with flowers.', image: '/texts_alaka_chudaka_1778561118965.png', imageAlt: 'Alaka Chudaka hairstyle' }
     ]
   },
   meaning: {
     title: 'Meaning of Hairstyles',
     items: [
-      { id: 'm1', title: 'Loose Hair', content: 'Symbol of grief, anger, mourning or emotional disturbance.' },
-      { id: 'm2', title: 'Braided Hair', content: 'Symbol of discipline, order and grace.' },
+      { id: 'm1', title: 'Loose Hair', content: 'Symbol of grief, anger, mourning or emotional disturbance.', image: '/meaning_loose_1778561148621.png', imageAlt: 'Loose Hair' },
+      { id: 'm2', title: 'Braided Hair', content: 'Symbol of discipline, order and grace.', image: '/meaning_braid_1778561168620.png', imageAlt: 'Braided Hair' },
       { id: 'm3', title: 'Bun (Juda)', content: 'Symbol of maturity, elegance and social status.' },
       { id: 'm4', title: 'Jata', content: 'Symbol of spirituality, renunciation and closeness to nature.' },
       { id: 'm5', title: 'Shikha', content: 'Symbol of sacred knowledge and spiritual discipline.' }
